@@ -6,10 +6,5 @@ pipeline {
         echo 'hi'
       }
     }
-    stage('final') {
-      steps {
-        archiveArtifacts 'cap'
-      }
-    }
   }
 }
